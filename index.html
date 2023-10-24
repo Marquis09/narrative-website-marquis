@@ -28,7 +28,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="page-one.html">History</a></li>
                         <li class="nav-item"><a class="nav-link" href="page-two.html">Event</a></li>
                         <li class="nav-item"><a class="nav-link" href="page-three.html">Architecture</a></li>
@@ -37,14 +37,25 @@
                 </div>
             </div>
         </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container">
-                <div class="masthead-subheading welcome">Welcome to</div>
-                <div class="masthead-heading text-uppercase">Munich</div>
-                
+
+      
+            <header class="masthead">
+            <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+            <div class="overlay"></div>
+          
+            <!-- The HTML5 video element that will create the background video on the header -->
+            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+              <source src="assets/index-background-image-header.mp4" type="video/mp4">
+            </video>
+          
+            <!-- The header content -->
+            <div class="container h-100">
+              <div class="d-flex h-100 text-center align-items-center">
+                <div class="masthead-heading text-uppercase">Welcome to Munich</div>
+              </div>
             </div>
-        </header>
+          </header>
+       
         <!-- Services-->
         <section class="page-section" id="services">
             <div class="container">
