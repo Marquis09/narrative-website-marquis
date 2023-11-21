@@ -39,7 +39,7 @@
   --bs-info: #0dcaf0;
   --bs-warning: #ffc800;
   --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
+  --bs-light: #000000;
   --bs-dark: #212529;
   --bs-primary-rgb: 255, 200, 0;
   --bs-secondary-rgb: 108, 117, 125;
@@ -236,7 +236,7 @@ sup {
 }
 
 a {
-  color: #ffc800;
+  color: #361caa;
   text-decoration: underline;
 }
 a:hover {
@@ -11352,20 +11352,20 @@ p {
 /* Text Banner*/
 
 .banner-text-heading {
-  color:#ffffff;
+  color:black;
   text-transform: uppercase;
 }
 
 .banner-heading-background {
-  background-color:black;
+  background-color:white;
 }
 
 .banner-divider {
-  color:#ffffff;
+  color:grey;
 }
 
 .banner-paragraph {
-  color:#ffffff;
+  color:black;
 }
 
 /* End of Text Banner*/
@@ -11417,11 +11417,11 @@ p {
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: 'Noto Sans', sans-serif;
   font-size: 0.95rem;
-  color: #fff;
+  color:  #fff;
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #ffc800;
+  color:lightskyblue;
 text-decoration: underline;
 }
 
