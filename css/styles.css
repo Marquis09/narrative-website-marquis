@@ -683,6 +683,10 @@ progress {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
 }
+blockquote {
+  font-style: italic;
+  color: #482f87;
+}
 
 .col {
   flex: 1 0 0%;
@@ -7559,6 +7563,36 @@ textarea.form-control-lg {
 .pb-3 {
   padding-bottom: 1rem !important;
 }
+/* Project images from Greyscale template */
+
+.projects-section {
+  padding: 1rem 0;
+}
+.projects-section .featured-text {
+  padding: 2rem;
+}
+@media (min-width: 992px) {
+  .projects-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+  }
+}
+.projects-section .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+@media (min-width: 992px) {
+  .projects-section .project-text {
+    padding: 5rem;
+  }
+  .projects-section .project-text hr {
+    border-color: #64a19d;
+    border-width: 0.25rem;
+    width: 30%;
+  }
+}
+
+/* End of project image styling from Greyscale template*/
 
 .pb-4 {
   padding-bottom: 1.5rem !important;
@@ -11315,6 +11349,26 @@ p {
   font-family: 'Playpen Sans', cursive;
   margin-bottom: 4rem;
 }
+/* Text Banner*/
+
+.banner-text-heading {
+  color:#ffffff;
+  text-transform: uppercase;
+}
+
+.banner-heading-background {
+  background-color:black;
+}
+
+.banner-divider {
+  color:#ffffff;
+}
+
+.banner-paragraph {
+  color:#ffffff;
+}
+
+/* End of Text Banner*/
 
 @media (min-width: 768px) {
   section {
@@ -11411,7 +11465,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/history-header-page.jpg");
+  background-image: url("../assets/img/history-img/history-header-img.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11422,7 +11476,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/oktoberfest-header.jpg");
+  background-image: url("../assets/img/event-img/event-header-img.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
