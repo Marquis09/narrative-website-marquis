@@ -1,4 +1,6 @@
 # 🍺 Munich Travel Guide: A Web & UX Case Study
+### Responsive Ecosystem
+![Munich Travel Guide Desktop and Mobile Showcase](all-screenshots/landing.png)
 **Live Platform Prototype:** [👉 Explore the Munich Guide](https://marquis09.github.io/narrative-website-marquis/)
 
 An all-in-one, mobile-first digital guide designed to consolidate fragmented tourist information into a single, seamless, and frustration-free experience for international and local visitors traveling to the heart of Bavaria.
@@ -8,7 +10,7 @@ An all-in-one, mobile-first digital guide designed to consolidate fragmented tou
 ## 📱 Interface Architecture & Responsive Layout
 
 ### Responsive Ecosystem
-![Munich Travel Guide Desktop and Mobile Showcase](all-screenshots/MUNICH_HERO_PREVIEW.png)
+![Munich Travel Guide Desktop and Mobile Showcase](all-screenshots/menu-mobile.png)
 *Engineered from the ground up for on-the-go travelers, featuring fluid Bootstrap layouts, rapid-access categories, and a clean, high-contrast visual hierarchy.*
 
 ---
